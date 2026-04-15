@@ -6,8 +6,6 @@ Monorepo for experimental snaps dependencies.
 
 ### Installing
 
-
-
 If you add a dependency with a lifecycle script, said dependency must be added to the `devDependencies` and `lavamoat.allow-scripts` config of the root `package.json` file.
 This is currently the only way to use `@lavamoat/allow-scripts` in monorepos.
 
